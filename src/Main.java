@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        Shop shop = ShopFactory.createShop();
+        Shop zara = ShopFactory.createShop();
 
         ShopEmployee adelina = new ShopEmployee("Adelina");
         ShopEmployee madiyar = new ShopEmployee("Madiyar");
         ShopEmployee ramazan = new ShopEmployee("Ramazan");
 
-        shop.addObserver(adelina);
-        shop.addObserver(madiyar);
-        shop.addObserver(ramazan);
+        zara.addObserver(adelina);
+        zara.addObserver(madiyar);
+        zara.addObserver(ramazan);
 
-        shop.openVacancy("Commercial Specialist");
+        zara.openVacancy("Commercial Specialist");
 
-        madiyar.applyForJob(shop);
+        madiyar.applyForJob(zara);
     }
 }
