@@ -10,7 +10,7 @@ public class Main {
         shop.addObserver(madiyar);
         shop.addObserver(ramazan);
 
-        shop.openVacancy("Commercial Specialist.");
+        shop.openVacancy("Commercial Specialist");
 
         madiyar.applyForJob(shop);
     }
