@@ -30,7 +30,7 @@ This project demonstrates the **Observer Design Pattern** in a shop employee not
 ## 🚀 How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/shop-observer-pattern.git
+   git clone [https://github.com/darigasekerbek/Software-Design-Pattern-Shop-Employee-Notification-System]
    ```
 2. Navigate to the project directory:
    ```sh
